@@ -1,1 +1,3 @@
-document.getElementsByTagName('h1')[0].append('<p>this is my first app.</p>');echo "web: node app.js" > Procfile
+let p = document.createElement("p");
+p.textContent = 'this is my first app';
+document.getElementsByTagName('body')[0].appendChild(p);
